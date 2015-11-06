@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": ["http://twitter.com/"],
-      "css": ["ext/back2fav.css"]
+      "css": ["back2fav.css"]
     }
   ],
   "manifest_version": 2
