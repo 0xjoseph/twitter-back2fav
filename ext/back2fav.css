@@ -1,0 +1,18 @@
+.Icon--heartBadge {
+color:#F89406;
+}
+.Icon--heartBadge:before {
+content:'\f001'
+}
+.HeartAnimation {
+background:none;
+}
+.HeartAnimation:before {
+content:'\f147';
+position:relative;
+top:17px;
+font-family:"rosettaicons";
+}
+.ProfileTweet-action--favorite .ProfileTweet-actionButton:hover, .ProfileTweet-action--favorite .ProfileTweet-actionButton:focus, .ProfileTweet-action--favorite .ProfileTweet-actionCount:hover, .ProfileTweet-action--favorite .ProfileTweet-actionCount:focus, .favorited .ProfileTweet-action--favorite .Icon--heart, .favorited .ProfileTweet-action--favorite .ProfileTweet-actionButtonUndo {
+color:#F89406
+}
