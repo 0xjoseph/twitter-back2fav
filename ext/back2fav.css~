@@ -2,7 +2,7 @@
 color:#F89406 !important;
 }
 .Icon--heartBadge:before {
-content:'\f001' !important;
+content:'\f001' !;important
 }
 .HeartAnimation {
 background:none !important;
