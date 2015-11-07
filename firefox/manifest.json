@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": { "id": "choufani.joseph@gmail.com" }
+  },
+  "name": "Back to Fav",
+  "version": "1.0",
+  "description": "Go back to the old twitter.com favorite star",
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*"],
+      "css": ["back2fav.css"]
+    }
+  ]
+}
